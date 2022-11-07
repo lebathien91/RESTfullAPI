@@ -37,10 +37,10 @@ const sendEmail = async (to: string, url: string) => {
     const mailOptions = {
       from: SENDER_EMAIL_ADDRESS,
       to: to,
-      subject: "Bác sĩ nhà quê",
+      subject: "FullStack - Tôi lập trình",
       html: `
               <div style="max-width: 700px; margin:auto; border: 10px solid #ddd; padding: 50px 20px; font-size: 110%;">
-              <h2 style="text-align: center; text-transform: uppercase;color: teal;">Welcome to the Bác sĩ nhà quê.</h2>
+              <h2 style="text-align: center; text-transform: uppercase;color: teal;">Welcome to the FullStack - Tôi lập trình.</h2>
               <p>Congratulations! You're almost set to start using BlogDEV.
                   Just click the button below to validate your email address.
               </p>

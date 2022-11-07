@@ -9,7 +9,6 @@ const PageCtrl = class {
   async create(req: IReqAuth, res: Response) {
     try {
       const { title, descripton, content } = req.body;
-
       const newPage = new Pages({
         title,
         descripton,

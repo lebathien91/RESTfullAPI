@@ -5,7 +5,6 @@ import morgan from "morgan";
 import connectDB from "./utils/dbconnect";
 import routes from "./routes";
 import socketIO from "./utils/socketIO";
-
 dotenv.config();
 
 const app = express();
